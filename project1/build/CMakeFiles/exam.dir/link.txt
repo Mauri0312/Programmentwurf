@@ -1,1 +1,1 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/exam.dir/link.d CMakeFiles/exam.dir/src/main.c.o CMakeFiles/exam.dir/src/developer.c.o CMakeFiles/exam.dir/src/developer_group.c.o -o exam
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/exam.dir/link.d CMakeFiles/exam.dir/src/main.c.o CMakeFiles/exam.dir/src/developer.c.o CMakeFiles/exam.dir/src/developer_group.c.o -o exam  libexam_lib.a

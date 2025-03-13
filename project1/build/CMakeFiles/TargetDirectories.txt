@@ -1,3 +1,4 @@
 /workspaces/Project-1/project1/build/CMakeFiles/exam.dir
+/workspaces/Project-1/project1/build/CMakeFiles/exam_lib.dir
 /workspaces/Project-1/project1/build/CMakeFiles/edit_cache.dir
 /workspaces/Project-1/project1/build/CMakeFiles/rebuild_cache.dir

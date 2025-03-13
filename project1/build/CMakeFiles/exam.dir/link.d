@@ -5,6 +5,7 @@ exam: \
   CMakeFiles/exam.dir/src/main.c.o \
   CMakeFiles/exam.dir/src/developer.c.o \
   CMakeFiles/exam.dir/src/developer_group.c.o \
+  libexam_lib.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so \
@@ -38,6 +39,8 @@ CMakeFiles/exam.dir/src/main.c.o:
 CMakeFiles/exam.dir/src/developer.c.o:
 
 CMakeFiles/exam.dir/src/developer_group.c.o:
+
+libexam_lib.a:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a:
 

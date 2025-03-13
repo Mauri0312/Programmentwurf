@@ -1,0 +1,2 @@
+/usr/bin/ar qc libexam_lib.a CMakeFiles/exam_lib.dir/src/developer.c.o CMakeFiles/exam_lib.dir/src/developer_group.c.o
+/usr/bin/ranlib libexam_lib.a

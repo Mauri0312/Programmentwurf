@@ -128,6 +128,7 @@ exam: CMakeFiles/exam.dir/src/developer.c.o
 exam: CMakeFiles/exam.dir/src/developer_group.c.o
 exam: CMakeFiles/exam.dir/build.make
 exam: CMakeFiles/exam.dir/compiler_depend.ts
+exam: libexam_lib.a
 exam: CMakeFiles/exam.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/Project-1/project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable exam"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exam.dir/link.txt --verbose=$(VERBOSE)

@@ -2,6 +2,8 @@
 #define DEVELOPER_GROUP_H                                                   //defines DEVELOPER_GROUP_H if not already defined
 
 #include "developer.h"                                                      //includes developer.h but because of "" searches first in the local the file and then global if not found
+#include <stdlib.h>
+#include <stdio.h>
 
 typedef struct {                                                            //defines DeveloperGroup 
     Developer developers[10];                                               //only 10 developer allowed

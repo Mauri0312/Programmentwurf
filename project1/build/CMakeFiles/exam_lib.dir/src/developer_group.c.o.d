@@ -1,4 +1,4 @@
-CMakeFiles/exam.dir/src/developer_group.c.o: \
+CMakeFiles/exam_lib.dir/src/developer_group.c.o: \
  /workspaces/Project-1/project1/src/developer_group.c \
  /usr/include/stdc-predef.h \
  /workspaces/Project-1/project1/include/developer_group.h \
