@@ -68,7 +68,7 @@ int main() {
         printf("Print Group [3]\n");
         printf("Exit [4]\n");
         printf("Choice:");                                                                  //Output to the UI
-        scanf("Enter your selection:%d", &choice);                                          //Scan of the User-Input
+        scanf("%d", &choice);                                                               //Scan of the User-Input
 
         switch (choice) {                                                                   //Initialisation of a switchcase for the different Cases
             case 1:
