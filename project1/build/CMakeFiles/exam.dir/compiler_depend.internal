@@ -73,8 +73,6 @@ exam
  /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
  /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so
  /usr/lib/x86_64-linux-gnu/libc_nonshared.a
- /workspaces/Project-1/project1/build/CMakeFiles/exam.dir/src/developer.c.o
- /workspaces/Project-1/project1/build/CMakeFiles/exam.dir/src/developer_group.c.o
  /workspaces/Project-1/project1/build/CMakeFiles/exam.dir/src/main.c.o
  /workspaces/Project-1/project1/build/libexam_lib.a
 

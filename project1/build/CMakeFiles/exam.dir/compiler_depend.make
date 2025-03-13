@@ -71,13 +71,9 @@ exam: /lib/x86_64-linux-gnu/libc.so.6 \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so \
   /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
-  CMakeFiles/exam.dir/src/developer.c.o \
-  CMakeFiles/exam.dir/src/developer_group.c.o \
   CMakeFiles/exam.dir/src/main.c.o \
   libexam_lib.a
 
-
-CMakeFiles/exam.dir/src/developer.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o:
 
@@ -126,8 +122,6 @@ CMakeFiles/exam.dir/src/main.c.o:
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-CMakeFiles/exam.dir/src/developer_group.c.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
