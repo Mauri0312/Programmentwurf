@@ -1,4 +1,4 @@
-
+#include <stdlib.h>
 #include <stdio.h>
 #include "developer_group.h"
 
@@ -55,8 +55,8 @@ int main() {
 "                          =====+*                          ----------====+      \n");      //Initialisation of the Group-LOGO
 
     Developer dev1, dev2;
-    initDeveloper(&dev1, "Yannick Schmitt", "Reifenwechsler");
-    initDeveloper(&dev2, "Maurice Manz", "Dosenöffner");                                    //Initialisation of the Members
+    initDeveloper(&dev1, "Yannick Schmitt", "2795628");
+    initDeveloper(&dev2, "Maurice Manz", "1736702");                                    //Initialisation of the Members
 
     addDeveloper(&group, &dev1);
     addDeveloper(&group, &dev2);                                                            //Added the Developer to the Group
@@ -69,7 +69,11 @@ int main() {
         printf("Print Group [3]\n");
         printf("Exit [4]\n");
         printf("Choice:");                                                                  //Output to the UI
-        scanf("%d", &choice);                                                               //Scan of the User-Input
+        if (scanf("%d", &choice) != 1) {                                                    //Scan of the User-Input
+            while (getchar() != '\n');                                                      // Clear the input buffer
+            printf("Invalid input! Please enter a number.\n");
+            choice = 0;                                                                     // Reset choice to avoid invalid case
+        }                                                                                   //Scan of the User-Input
 
         switch (choice) {                                                                   //Initialisation of a switchcase for the different Cases
             case 1:
@@ -79,7 +83,7 @@ int main() {
                 printGroupLogo(&group);
                 break;
             case 3:
-                printGroup(&group);
+                printCombination(&group);
                 break;
             case 4:
                 break;

@@ -18,7 +18,7 @@ void printGroupLogo(const DeveloperGroup *group) {                              
     printf("Group Logo: \n %s\n", group->logo);                                        //Prints the group logo
 }
 
-void printGroup(const DeveloperGroup *group) {                                      //Initialisation of a function to print the group
+void printCombination(const DeveloperGroup *group) {                                      //Initialisation of a function to print the group
     printGroupLogo(group);                                                          //Prints the group logo
     listDevelopers(group);                                                          //Lists the developers in the group
 }

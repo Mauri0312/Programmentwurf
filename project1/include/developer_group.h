@@ -12,5 +12,5 @@ void initDeveloperGroup(DeveloperGroup *group, const char *logo);           //de
 void addDeveloper(DeveloperGroup *group, const Developer *developer);       //declares the function to add an developer
 void printGroupLogo(const DeveloperGroup *group);                           //declares the function to print the grouplogo
 void listDevelopers(const DeveloperGroup *group);                           //declares the function for the developerlist
-
+void printCombination(const DeveloperGroup *group);                         //declares the function to print the combination
 #endif                                                                      //ends defintion
