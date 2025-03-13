@@ -18,4 +18,11 @@
     "cmake.configureArgs": ["-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"],
 
     "terminal.integrated.defaultProfile.linux": "bash",
+    "cSpell.words": [
+        "Dosenöffner",
+        "Manz",
+        "Schmitt",
+        "switchcase",
+        "Yannick"
+    ],
 }
