@@ -147,7 +147,6 @@ src/developer.o: src/developer.c.o
 
 # target to build an object file
 src/developer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam.dir/build.make CMakeFiles/exam.dir/src/developer.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_lib.dir/build.make CMakeFiles/exam_lib.dir/src/developer.c.o
 .PHONY : src/developer.c.o
 
@@ -156,7 +155,6 @@ src/developer.i: src/developer.c.i
 
 # target to preprocess a source file
 src/developer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam.dir/build.make CMakeFiles/exam.dir/src/developer.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_lib.dir/build.make CMakeFiles/exam_lib.dir/src/developer.c.i
 .PHONY : src/developer.c.i
 
@@ -165,7 +163,6 @@ src/developer.s: src/developer.c.s
 
 # target to generate assembly for a file
 src/developer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam.dir/build.make CMakeFiles/exam.dir/src/developer.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_lib.dir/build.make CMakeFiles/exam_lib.dir/src/developer.c.s
 .PHONY : src/developer.c.s
 
@@ -174,7 +171,6 @@ src/developer_group.o: src/developer_group.c.o
 
 # target to build an object file
 src/developer_group.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam.dir/build.make CMakeFiles/exam.dir/src/developer_group.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_lib.dir/build.make CMakeFiles/exam_lib.dir/src/developer_group.c.o
 .PHONY : src/developer_group.c.o
 
@@ -183,7 +179,6 @@ src/developer_group.i: src/developer_group.c.i
 
 # target to preprocess a source file
 src/developer_group.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam.dir/build.make CMakeFiles/exam.dir/src/developer_group.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_lib.dir/build.make CMakeFiles/exam_lib.dir/src/developer_group.c.i
 .PHONY : src/developer_group.c.i
 
@@ -192,7 +187,6 @@ src/developer_group.s: src/developer_group.c.s
 
 # target to generate assembly for a file
 src/developer_group.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam.dir/build.make CMakeFiles/exam.dir/src/developer_group.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exam_lib.dir/build.make CMakeFiles/exam_lib.dir/src/developer_group.c.s
 .PHONY : src/developer_group.c.s
 

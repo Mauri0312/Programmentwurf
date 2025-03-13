@@ -15,10 +15,10 @@ void addDeveloper(DeveloperGroup *group, const Developer *developer) {          
 }
 
 void printGroupLogo(const DeveloperGroup *group) {                                  //Initialisation of a function to print the group logo
-    printf("Group Logo: \n %s\n", group->logo);                                        //Prints the group logo
+    printf("Group Logo: \n %s\n", group->logo);                                     //Prints the group logo
 }
 
-void printCombination(const DeveloperGroup *group) {                                      //Initialisation of a function to print the group
+void printCombination(const DeveloperGroup *group) {                                //Initialisation of a function to print the group
     printGroupLogo(group);                                                          //Prints the group logo
     listDevelopers(group);                                                          //Lists the developers in the group
 }

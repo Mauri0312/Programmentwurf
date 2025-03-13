@@ -54,7 +54,7 @@ int main() {
 
     Developer dev1, dev2;
     initDeveloper(&dev1, "Yannick Schmitt", "2795628");
-    initDeveloper(&dev2, "Maurice Manz", "1736702");                                    //Initialisation of the Members
+    initDeveloper(&dev2, "Maurice Manz", "1736702");                                        //Initialisation of the Members
 
     addDeveloper(&group, &dev1);
     addDeveloper(&group, &dev2);                                                            //Added the Developer to the Group

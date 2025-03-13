@@ -3,8 +3,6 @@ exam: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
   CMakeFiles/exam.dir/src/main.c.o \
-  CMakeFiles/exam.dir/src/developer.c.o \
-  CMakeFiles/exam.dir/src/developer_group.c.o \
   libexam_lib.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so \
@@ -35,10 +33,6 @@ exam: \
 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
 
 CMakeFiles/exam.dir/src/main.c.o:
-
-CMakeFiles/exam.dir/src/developer.c.o:
-
-CMakeFiles/exam.dir/src/developer_group.c.o:
 
 libexam_lib.a:
 
