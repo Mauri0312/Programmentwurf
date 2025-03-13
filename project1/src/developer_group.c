@@ -15,7 +15,7 @@ void addDeveloper(DeveloperGroup *group, const Developer *developer) {          
 }
 
 void printGroupLogo(const DeveloperGroup *group) {                                  //Initialisation of a function to print the group logo
-    printf("Group Logo: %s\n", group->logo);                                        //Prints the group logo
+    printf("Group Logo: \n %s\n", group->logo);                                        //Prints the group logo
 }
 
 void printGroup(const DeveloperGroup *group) {                                      //Initialisation of a function to print the group

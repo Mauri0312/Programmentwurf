@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-typedef struct{                                                                  //defines the structer Developer
+typedef struct{                                                                  //defines the structure Developer
     char name[50];                                                               //defines how much storage space the array of the name and alias has 
     char alias[50];
 } Developer;
